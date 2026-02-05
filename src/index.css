@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+.ai-box {
+  background: #f8f9fa;
+  padding: 16px;
+  border-radius: 10px;
+  line-height: 1.6;
+}
+
+.ai-box h1, .ai-box h2 {
+  margin-top: 12px;
+}
+
+.ai-box code {
+  background: #eee;
+  padding: 4px 6px;
+  border-radius: 5px;
+}
