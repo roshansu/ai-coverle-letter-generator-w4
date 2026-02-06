@@ -1,16 +1,42 @@
-# React + Vite
+https://stirring-panda-dfe212.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Cover Letter Generator 🚀
 
-Currently, two official plugins are available:
+A web-based application that generates a **professional cover letter** based on user-provided details such as name, role, company, skills, and resume.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## React Compiler
+- ✍️ User-friendly input form  
+- 👤 Collects personal and professional details  
+- 📄 Accepts resume input  
+- 🤖 Automatically generates a customized cover letter  
+- ⚡ Fast and efficient text generation  
+- 📥 Ready-to-use output for job applications  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧾 User Inputs
 
-## Expanding the ESLint configuration
+The user provides the following details:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Name**
+- **Job Role / Position**
+- **Company Name**
+- **Skills**
+- **Resume Content**
+
+Based on these inputs, the system generates a **tailored cover letter** suitable for the specified job role and company.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript / React  
+- **AI / Logic:** Cover letter generation logic (API or custom logic)  
+
+## 🚀 How It Works
+
+1. User fills in the required details.
+2. Resume and skills are analyzed.
+3. The system processes the data.
+4. A personalized cover letter is generated.
+5. User can copy or download the generated cover letter.
+
+## 📂 Project Structure
+
